@@ -46,3 +46,38 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* - - - - - - - - - - - - 
+    Global styles
+- - - - - - - - - - - -  */
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body { background-color: #191c1f;}
+
+/* - - - - - - - - - - - - 
+    Card styles
+- - - - - - - - - - - -  */
+
+#create-user-card {
+    background-color: white;
+    border-radius: 4px;
+    width: 500px;
+    height: 400px;
+    margin: 1.5em 0 0 24px;
+    padding: 1.5em 24px;
+}
+
+form input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #191c1f;
+}
+
+/* - - - - - - - - - */
+
+.no-show { display: none; }

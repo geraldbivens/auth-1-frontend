@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Create a new user &mdash; Auth 1</title>
+    <title>Auth 1 &mdash; Create a new user</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Create a new user</h1>
-    </header>
-    <section>
+    <h1 class="no-show">Auth 1</h1>
+    <section id="create-user-card">
+        <h2>Create a new user</h2>
         <form id="create-user">
-            <input type="text" name="username" id="username" placeholder="Username">
-            <input type="password" name="password" id="password" placeholder="Password">
+            <label for="">Username</label>
+            <input type="text" name="username" id="username">
+            <label for="">Password</label>
+            <input type="password" name="password" id="password">
             <input type="submit" value="Create user">
         </form>
     </section>
