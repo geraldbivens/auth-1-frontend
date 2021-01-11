@@ -56,26 +56,53 @@ html, body {
     height: 100vh;
 }
 
-body { background-color: #191c1f;}
-
 /* - - - - - - - - - - - - 
-    Card styles
+    Form styles
 - - - - - - - - - - - -  */
 
-#create-user-card {
-    background-color: white;
-    border-radius: 4px;
-    width: 500px;
-    height: 400px;
-    margin: 1.5em 0 0 24px;
-    padding: 1.5em 24px;
+.flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.justify-center {
+    justify-content: center;
+}
+.flex-direction-column {
+    flex-direction: column;
 }
 
-form input {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: 1px solid #191c1f;
+/* - - - - - - - - - */
+
+#username-input, #password-input {
+    height: 5vh;
+    padding-left: 0.5em;
+    border: none;
+    border-bottom: 2px solid #3b3b3b;
+}
+
+/* - - - - - - - - - */
+
+#login, #reset {
+    border-style: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* - - - - - - - - - */
+
+#create-user-form {
+    padding-top: 5em;
+    min-height: 23vh;
+    width: 20%;
+    color: gray;
 }
 
 /* - - - - - - - - - */

@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1 class="no-show">Auth 1</h1>
-    <section id="create-user-card">
+    <!-- <section id="create-user-card">
         <h2>Create a new user</h2>
         <form id="create-user">
             <label for="">Username</label>
@@ -18,6 +18,33 @@
             <input type="password" name="password" id="password">
             <input type="submit" value="Create user">
         </form>
-    </section>
+    </section> -->
+
+    <div class='flex justify-center' id='form-container'>
+        <form aria-label='login form' class='flex flex-direction-column justify-between' id='create-user-form'>
+            <input 
+                aria-label='username input' 
+                type='text' 
+                name='username' 
+                id='username-input' 
+                placeholder='Username'
+            />
+            <input 
+                aria-label='password input' 
+                type='password' 
+                name='password' 
+                id='password-input' 
+                placeholder='Password'
+            />
+            <div class='flex justify-evenly'>
+                <input 
+                    type='submit' 
+                    id='login' 
+                    value='Create user'
+                />
+                <button id='reset' type='reset'>Reset</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
